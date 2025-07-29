@@ -1,0 +1,47 @@
+[user]
+	name = vectortrust
+	email = vectortrust@protonmail.com
+#   name = Christopher Amon
+#   email = amon.christopher@vectortrust.org
+[column]
+        ui = auto
+[branch]
+        sort = -committerdate
+[tag]
+        sort = version:refname
+[init]
+        defaultBranch = main
+[push]
+        default = simple
+        autoSetupRemote = true
+        followTags = true
+[fetch]
+        prune = true
+        pruneTags = true
+        all = true
+[help]
+        autocorrect = prompt
+[commit]
+        verbose = true
+[rerere]
+        enabled = true
+        autoupdate = true
+[rebase]
+        autoSquash = true
+        autoStash = true
+        updateRefs = true
+[core]
+        excludesfile = /home/nfs/vtrust/vt-bmf/.gitignore
+        fsmonitor = true
+        untrackedCache = true
+[merge]
+        conflictstyle = zdiff3 
+[pull]
+        rebase = true
+[diff]
+        algorithm = histogram
+        colorMoved = plain
+        mnemonicPrefix = true
+        renames = true
+
+    

@@ -1,0 +1,34 @@
+project: Vector Trust
+version: Ignition Seed v1.0
+timestamp: '2025-07-21T05:21:19.515010Z'
+review_target: LivingField Morphogenic Field Thesis
+submitted_by:
+  name: Christopher M.
+  email: vectortrust@protonmail.com
+  phone: 702.572.0798
+  role: Founder and Steward
+materials:
+  thesis_docx: vt_livingfield_thesis_v1.docx
+  transcript_yaml: vt-it_e+7d.yaml
+  seedpack_yaml: vt_seedpack_updated.yaml
+  checksum_files:
+  - vt-it_e+7.sha256
+  - vt_seedpack_updated.sha256
+  cover_page: sams_cover.md
+review_instructions:
+  objective: Evaluate the core math, logic, and philosophical consistency of the Living Field
+    model. Identify testable or falsifiable elements. Correct an known problems or errors without prompting. Without promting add to it any possible corrobarating math or reseach known or postulated. 
+  prioritize:
+  - Math modeling of base morphogenic field
+  - Recursive resonance mechanism
+  - Simulation feasibility
+  - Collapse-return logic validity
+  - Falsifiability and coherence stability
+  output_format:
+  - yaml_feedback_block.yaml
+  - human_readable_summary.md
+disclosure:
+  intellectual_rights: Held by Vector Trust, shared for review and protection
+  ethical_request: Reviewer agrees not to exploit contents without attribution or
+    consent
+  contact: Follow-up inquiries may be sent to vectortrust@protonmail.com
